@@ -35,7 +35,7 @@ Installation on bare Ubuntu 12.04 server (AWS)
 - `sudo mkdir /var/www/enketo`
 - `cd /var/www/enketo`
 - `sudo git init`
-- `sudo git pull https://github.com/modilabs/enketo.git` (or `sudo git pull https://github.com/MartijnR/enketo.git` )
+- `sudo git pull https://github.com/shashanks/enketo.git` (or `sudo git pull https://github.com/MartijnR/enketo.git` )
 - `sudo git submodule update --init`
 - enter database info in /var/www/enketo/Code_Igniter/application/config/database.php (username, password, database)
 - enter other info in /var/www/enketo/Code_Igniter/application/config/enketo.php
