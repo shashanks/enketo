@@ -56,4 +56,8 @@ Installation on bare Ubuntu 12.04 server (AWS)
 #### Maintenance (for production server):
 - set up automatic security updates: https://help.ubuntu.com/community/AutomaticSecurityUpdates
 - set up a backup system (at least for database) e.g. https://github.com/woxxy/MySQL-backup-to-Amazon-S3
+- 
+
+Error And Resolution
+1) if enketo gives error table "enketo.sessions"  missing, import the sessions.sql file from /devinfo/database
 
